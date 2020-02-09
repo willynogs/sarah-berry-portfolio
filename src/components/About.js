@@ -2,9 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <p>
-      all about sarah berry
-    </p>
+    <>
+      <h1>hello!</h1>
+      <p>
+        my name is sarah berry and i am a student at the ohio state university and graphic designer at ruddy marketing group in columbus, ohio.
+      </p>
+    </>
   )
 }
 
