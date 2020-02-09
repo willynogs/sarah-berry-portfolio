@@ -9,11 +9,13 @@ const Ul = styled.ul`
 `
 
 const A = styled.a`
-  &:visited {
-    color: #222222;
-  }
-  &:hover {
-    color: palegoldenrod;
+  && {
+    &:visited {
+      color: #222222;
+    }
+    &:hover {
+      color: palegoldenrod;
+    }
   }
 `
 
