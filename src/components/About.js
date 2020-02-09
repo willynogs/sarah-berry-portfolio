@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const P = styled.p`
-  max-width: 80%
+  max-width: 80%;
   text-align: center;
 `
 
