@@ -35,7 +35,7 @@ const Slideshow = () => {
 
   return (
     <>
-      <A href={slideImages[currentSlide]} target='_blank'>view image fullscreen</A>
+      <A href={slideImages[currentSlide]} target='_blank' rel='noopener noreferrer'>view image fullscreen</A>
       <div className="slide-container">
         <Slide {...properties}>
           {slideImages.map((image, index) => {
