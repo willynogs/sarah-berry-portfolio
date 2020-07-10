@@ -26,7 +26,7 @@ const Nav = () => {
         <Link to='/portfolio' component={A}>portfolio</Link>
       </li>
       <li>
-        <Link to='/completed-classes' component={A}>completed classes</Link>
+        <Link to='/completed-fashion-courses' component={A}>completed fashion courses</Link>
       </li>
       <li>
         <Link to='/first-project' component={A}>first project</Link>

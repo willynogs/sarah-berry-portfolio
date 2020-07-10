@@ -27,7 +27,7 @@ const Router = () => {
           <Route path='/about' exact component={About} />
           <Route path='/resume' exact component={Resume} />
           <Route path='/portfolio' exact component={Portfolio} />
-          <Route path='/completed-classes' exact component={CompletedClasses} />
+          <Route path='/completed-fashion-courses' exact component={CompletedClasses} />
           <Route path='/first-project' exact component={FirstProject} />
           <Route path='/contact' exact component={Contact} />
         </Switch>
