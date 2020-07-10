@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Nav from './components/Nav'
 import Home from './components/Home'
 import About from './components/About'
-import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
 import CompletedClasses from './components/CompletedClasses'
 import FirstProject from './components/FirstProject'
@@ -25,7 +24,6 @@ const Router = () => {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' exact component={About} />
-          <Route path='/resume' exact component={Resume} />
           <Route path='/portfolio' exact component={Portfolio} />
           <Route path='/completed-fashion-courses' exact component={CompletedClasses} />
           <Route path='/first-project' exact component={FirstProject} />
