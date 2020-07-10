@@ -5,8 +5,9 @@ import A from './common/A'
 
 const Ul = styled.ul`
   list-style-type: none;
-  margin: 0;
+  margin: 15px auto 15px auto;
   padding: 0;
+  display: table;
 `
 
 const Nav = () => {
@@ -16,10 +17,19 @@ const Nav = () => {
         <Link to='/' component={A}>home</Link>
       </li>
       <li>
-        <Link to='/about' component={A}>about</Link>
+        <Link to='/about' component={A}>biography</Link>
+      </li>
+      <li>
+        <Link to='/Resume.pdf' target='_blank' rel='noopener noreferrer' component={A}>resume</Link>
       </li>
       <li>
         <Link to='/portfolio' component={A}>portfolio</Link>
+      </li>
+      <li>
+        <Link to='/completed-classes' component={A}>completed classes</Link>
+      </li>
+      <li>
+        <Link to='/first-project' component={A}>first project</Link>
       </li>
       <li>
         <Link to='/contact' component={A}>contact</Link>
