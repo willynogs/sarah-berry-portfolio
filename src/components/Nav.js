@@ -19,9 +19,9 @@ const Nav = () => {
       <li>
         <Link to='/about' component={A}>biography</Link>
       </li>
-      <li>
+      {/* <li>
         <Link to='/Resume.pdf' target='_blank' rel='noopener noreferrer' component={A}>resume</Link>
-      </li>
+      </li> */}
       <li>
         <Link to='/portfolio' component={A}>portfolio</Link>
       </li>
