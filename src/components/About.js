@@ -18,7 +18,7 @@ const About = () => {
       <Img src={headshot} alt='Headshot of Sarah Berry' />
       <P>
         I’m Sarah Berry, Fashion & Retail Studies major at the Ohio State University. I am currently a senior and will be
-        graduating with a bachelor's degree in August 2021. Throughout my undergraduate experience, I have discovered
+        graduating with a bachelor's degree in May 2021. Throughout my undergraduate experience, I have discovered
         my passion for fashion and design. In my Aesthetics of Fashion & Retail class, I learned basic photoshop skills and
         was able to explore the creative side of the fashion industry. I was immediately intrigued and excited about design,
         which guided me to the position I am in today. Currently, I am a graphic design intern for American Textile

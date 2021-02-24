@@ -31,6 +31,11 @@ personal expression, and context.</li></ul>
         <ClassLi>Professional Development</ClassLi>
         <ul><li>Professional career opportunities and goals, job search, professional organizations and continued
 development.</li></ul>
+        <ClassLi>Fashion Forecasting</ClassLi>
+        <ul><li>Analysis and application of trend forecasting practices in all aspects of the fashion industry.</li></ul>
+        <ClassLi>Merchandise Buying & Management</ClassLi>
+        <ul><li>Retail buyer’s role in merchandise management: decision making, planning, control process, negotiating, buying, pricing, 
+and preparing merchandise for sale.</li></ul>
       </Ul>
     </>
   )

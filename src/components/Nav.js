@@ -23,13 +23,13 @@ const Nav = () => {
         <Link to='/Resume.pdf' target='_blank' rel='noopener noreferrer' component={A}>resume</Link>
       </li> */}
       <li>
-        <Link to='/portfolio' component={A}>portfolio</Link>
+        <Link to='/work-projects' component={A}>work projects</Link>
+      </li>
+      <li>
+        <Link to='/personal-projects' component={A}>personal projects</Link>
       </li>
       <li>
         <Link to='/completed-fashion-courses' component={A}>completed fashion courses</Link>
-      </li>
-      <li>
-        <Link to='/first-project' component={A}>first project</Link>
       </li>
       <li>
         <Link to='/contact' component={A}>contact</Link>
