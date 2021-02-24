@@ -8,6 +8,7 @@ import Slide4 from '../assets/work-emroideries/ATI Camping & Adventure 2021 Boar
 import Slide5 from '../assets/work-emroideries/ATI Easter 2022_Easter Is Here Embroideries_1.25.21_SB.jpg'
 import Slide6 from '../assets/work-emroideries/ATI Spring 2021 Board_SB_3.18.20.jpg'
 import Slide7 from '../assets/work-emroideries/citi trends back to school wash.jpg'
+import Slide8 from "../assets/work-emroideries/ATI Texas 2020_Don't Mess With Texas Board_7.24.20_SB.jpg"
 
 const slideImages = [
   Slide1,
@@ -17,6 +18,7 @@ const slideImages = [
   Slide5,
   Slide6,
   Slide7,
+  Slide8,
 ]
 
 const WorkEmbroiderieSlideshow = () => {
