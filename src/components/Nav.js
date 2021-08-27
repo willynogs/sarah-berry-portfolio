@@ -3,38 +3,46 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import A from './common/A'
 
-const Ul = styled.ul`
-  list-style-type: none;
-  margin: 15px auto 15px auto;
-  padding: 0;
-  display: table;
+const Container = styled.div`
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+`
+
+const NavContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #fff;
+`
+
+const GradientBottom = styled.div`
+  background: linear-gradient(to top, transparent, #fff);
+  height: 25px;
+`
+
+const H1 = styled.h1`
+  margin: 0;
+`
+
+const NavItem = styled(Link)`
+  margin-right: 10px;
 `
 
 const Nav = () => {
   return (
-    <Ul>
-      <li>
-        <Link to='/' component={A}>home</Link>
-      </li>
-      <li>
-        <Link to='/about' component={A}>biography</Link>
-      </li>
-      {/* <li>
-        <Link to='/Resume.pdf' target='_blank' rel='noopener noreferrer' component={A}>resume</Link>
-      </li> */}
-      <li>
-        <Link to='/work-projects' component={A}>work projects</Link>
-      </li>
-      <li>
-        <Link to='/personal-projects' component={A}>personal projects</Link>
-      </li>
-      <li>
-        <Link to='/completed-fashion-courses' component={A}>completed fashion courses</Link>
-      </li>
-      <li>
-        <Link to='/contact' component={A}>contact</Link>
-      </li>
-    </Ul>
+    <Container>
+      <NavContainer>
+        <H1>SARAH BERRY</H1>
+        <div>
+          <NavItem to='/about' component={A}>bio</NavItem>
+          <NavItem to='/projects-home' component={A}>projects</NavItem>
+          <NavItem to='/contact' component={A}>contact</NavItem>
+        </div>
+      </NavContainer>
+      <GradientBottom />
+    </Container>
   )
 }
 

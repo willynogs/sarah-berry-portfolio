@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import headshot from '../assets/headshot.jpg'
+import familyPic from '../assets/family-pic.png'
 
 const P = styled.p`
   max-width: 80%;
@@ -8,23 +8,19 @@ const P = styled.p`
 `
 
 const Img = styled.img`
-  max-width: 250px;
+  max-width: 60vw;
 `
 
 const About = () => {
   return (
     <>
       <h1>hello!</h1>
-      <Img src={headshot} alt='Headshot of Sarah Berry' />
       <P>
-        I’m Sarah Berry, Fashion & Retail Studies major at the Ohio State University. I am currently a senior and will be
-        graduating with a bachelor's degree in May 2021. Throughout my undergraduate experience, I have discovered
-        my passion for fashion and design. In my Aesthetics of Fashion & Retail class, I learned basic photoshop skills and
-        was able to explore the creative side of the fashion industry. I was immediately intrigued and excited about design,
-        which guided me to the position I am in today. Currently, I am a graphic design intern for American Textile
-        Industries. Mainly, I design graphics and patterns that are to be embroidered on towels. I additionally design
-        packaging, create trend boards and assess lab dips. I love what I do and I will continue to push myself to enhance
-        my design knowledge and skills.
+        I’m Sarah Berry, a Columbus based graphic and textile designer who is passionate about brand building, visual storytelling, and creative thinking. When I’m not designing, you can find me hiking, eating ice cream or spending time with my boyfriend, Will and our two dogs, Penelope and Merlin.
+      </P>
+      <Img src={familyPic} alt='Sarah with her boyfriend and dogs' />
+      <P>
+        I discovered my passion for creativity and design while gaining my bachelor’s degree in Fashion & Retail at the Ohio State University. In my Aesthetics of Fashion & Retail class, I learned basic photoshop skills and was able to explore the creative side of the fashion industry. I was immediately intrigued and excited about design, which guided me to the position I am in today. Currently, I am the Design Manager at American Textile Industries. I began my experience with ATI as an intern excited to grow as a designer. I devoted a lot of my time learning how to think outside of the box, which showed through my unique and innovative designs. I became a full time designer upon graduation and was soon promoted to Design Manager. I feel so fortunate and accomplished to be in the position I am today and will continue to push myself to grow and achieve my creative goals.
       </P>
     </>
   )
