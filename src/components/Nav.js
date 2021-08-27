@@ -19,10 +19,10 @@ const NavContainer = styled.div`
 
 const GradientBottom = styled.div`
   background: rgb(255,255,255);
-  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00d4ff",GradientType=1);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
   height: 25px;
 `
 
