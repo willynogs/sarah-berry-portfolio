@@ -26,6 +26,11 @@ const GradientBottom = styled.div`
   height: 25px;
 `
 
+const LogoLink = styled(Link)`
+  text-decoration: none;
+  color: #000000;
+`
+
 const H1 = styled.h1`
   margin: 0;
 `
@@ -38,7 +43,7 @@ const Nav = () => {
   return (
     <Container>
       <NavContainer>
-        <H1>SARAH BERRY</H1>
+        <LogoLink to='/'><H1>SARAH BERRY</H1></LogoLink>
         <div>
           <NavItem to='/about' component={A}>bio</NavItem>
           <NavItem to='/projects-home' component={A}>projects</NavItem>

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Slide } from 'react-slideshow-image'
 import A from './common/A'
-import Slide1 from '../assets/work-prints/fall 2021 towel prints.jpg'
+import Slide1 from '../assets/work-prints/SPRING PRINTS.jpg'
 import Slide2 from '../assets/work-prints/PET PRINTS.jpg'
-import Slide3 from '../assets/work-prints/SPRING PRINTS.jpg'
+import Slide3 from '../assets/work-prints/fall 2021 towel prints.jpg'
 import Slide4 from '../assets/work-prints/TEXAS PRINTS.jpg'
 
 const slideImages = [
