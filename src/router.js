@@ -5,8 +5,8 @@ import Nav from './components/Nav'
 import Home from './components/Home'
 import About from './components/About'
 import ProjectsHome from './components/ProjectsHome'
-import WorkEmbroideries from './components/WorkEmbroideries'
-import WorkPrints from './components/WorkPrints'
+import GraphicDesign from './components/GraphicDesign'
+import PrintDesign from './components/PrintDesign'
 import PersonalProjects from './components/PersonalProjects'
 import CompletedClasses from './components/CompletedClasses'
 import Contact from './components/Contact'
@@ -28,8 +28,8 @@ const Router = () => {
           <Route path='/about' exact component={About} />
           <Route path='/projects-home' exact component={ProjectsHome} />
           <Route path='/personal-projects' exact component={PersonalProjects} />
-          <Route path='/work-embroideries' exact component={WorkEmbroideries} />
-          <Route path='/work-prints' exact component={WorkPrints} />
+          <Route path='/graphic-design' exact component={GraphicDesign} />
+          <Route path='/print-design' exact component={PrintDesign} />
           <Route path='/completed-fashion-courses' exact component={CompletedClasses} />
           <Route path='/contact' exact component={Contact} />
         </Switch>
