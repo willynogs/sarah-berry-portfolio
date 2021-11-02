@@ -1,8 +1,7 @@
 backend:
   name: git-gateway
 publish_mode: editorial_workflow
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "src/assets/uploads"
 collections:
   - name: "graphic-design"
     label: "Graphic Design"
@@ -10,7 +9,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
   - name: "print-design"
     label: "Print Design"
@@ -18,5 +16,4 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
