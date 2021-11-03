@@ -2,19 +2,18 @@ import React, { useState } from 'react'
 import { Slide } from 'react-slideshow-image'
 import A from './common/A'
 import Slide1 from '../assets/graphic-design-embroideries/Burlington-Pride.png'
-import Slide2 from '../assets/new-work-emroideries/back-to-school-emb.png'
-import Slide3 from '../assets/graphic-design-embroideries/ATI-Halloween.png'
-import Slide4 from '../assets/graphic-design-embroideries/Burlington-Social-Respect.png'
-import Slide5 from '../assets/new-work-emroideries/Live-Happy-Embroideries.png'
-import Slide6 from '../assets/new-work-emroideries/Beauty-Embroideries.png'
-import Slide7 from '../assets/new-work-emroideries/Spring-Embroideries.png'
-import Slide8 from '../assets/new-work-emroideries/Texas.png'
-import Slide9 from '../assets/graphic-design-embroideries/ATI-Camping.png'
-import Slide10 from '../assets/graphic-design-embroideries/ATI-Easter.png'
-import Slide11 from '../assets/graphic-design-embroideries/ATI-Tropical.png'
-import Slide12 from '../assets/graphic-design-embroideries/Big-Lots-Xmas.png'
-import Slide13 from '../assets/graphic-design-embroideries/DDs-Hispanic-Heritage.png'
-import Slide14 from '../assets/graphic-design-embroideries/DDs-Ocean-Breeze.png'
+import Slide2 from '../assets/graphic-design-embroideries/ATI-Halloween.png'
+import Slide3 from '../assets/graphic-design-embroideries/Burlington-Social-Respect.png'
+import Slide4 from '../assets/new-work-emroideries/Live-Happy-Embroideries.png'
+import Slide5 from '../assets/new-work-emroideries/Beauty-Embroideries.png'
+import Slide6 from '../assets/new-work-emroideries/Spring-Embroideries.png'
+import Slide7 from '../assets/new-work-emroideries/Texas.png'
+import Slide8 from '../assets/graphic-design-embroideries/ATI-Camping.png'
+import Slide9 from '../assets/graphic-design-embroideries/ATI-Easter.png'
+import Slide10 from '../assets/graphic-design-embroideries/ATI-Tropical.png'
+import Slide11 from '../assets/graphic-design-embroideries/Big-Lots-Xmas.png'
+import Slide12 from '../assets/graphic-design-embroideries/DDs-Hispanic-Heritage.png'
+import Slide13 from '../assets/graphic-design-embroideries/DDs-Ocean-Breeze.png'
 
 const slideImages = [
   Slide1,
@@ -30,7 +29,6 @@ const slideImages = [
   Slide11,
   Slide12,
   Slide13,
-  Slide14,
 ]
 
 const WorkEmbroiderieSlideshow = () => {
