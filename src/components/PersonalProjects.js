@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ViewMoreText from './ViewMoreText'
 import PersonalGifSlideshow from './PersonalGifSlideshow'
 import PersonalSlideshow from './PersonalSlideshow'
 import AerieSummer from './AerieSummer'
@@ -15,9 +16,10 @@ const PersonalProjects = () => {
     <React.Fragment>
       <h1>Personal Projects {'&'} Artwork</h1>
 
-      <P>
-        This is a mood board project I created that's focused on Aerie's aesthetic for the Summer 2023 season. I included inspirational images that represent the Aerie girl as well as product tears, fabric, print and color inspiration.
-      </P>
+      <ViewMoreText
+        mainText="This is a mood board project I created that's focused on Aerie's aesthetic for the Summer 2023 season. I included inspirational images that represent the Aerie girl as well as product tears, fabric, print and color inspiration."
+        additionalText="During Summer of 2023, the Aerie girl will be focusing on connecting with nature and seeking new experiences. She has always loved the outdoors but has found a new appreciation for what the earth has to offer in the years since the pandemic began. The Aerie girl plans on going on a solo backpacking trip to discover new places and herself. Mental health, environmental issues and treating her body well are priorities that she will focus on during this adventure. Her bags are packed and she's ready to hit the road. She's bringing her most comfortable and versatile apparel, mostly made from natural materials with textures inspired by the organic shapes of nature. Her wardrobe consists of neutral earth tones with bold pops of playful colors that represent optimism."
+      />
       <AerieSummer />
       <P>
       This is a capsule collection I created that's focused on Aerie's aesthetic for the Holiday 2023 season. I created mood boards, a seasonal color palette, included textiles relevant to the season/Aerie customer and designed prints and CAD's.
